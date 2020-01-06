@@ -1,94 +1,90 @@
-<mxfile host="www.draw.io" modified="2020-01-06T08:28:26.450Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="5DYKv0yNH15O8QmJG2zE" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T10:36:29.498Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="cgfWeyYE5-GV6h809_j-" version="12.4.8" type="github">
   <diagram id="lvl7MAQSpaBJYJWjbiyI" name="Page-1">
     <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;align=center;" vertex="1" parent="1">
-          <mxGeometry x="103" y="35" width="657" height="243" as="geometry"/>
+        <mxCell id="5cnRcVTEnLRAY2OvrMMb-1" value="&lt;div style=&quot;text-align: right&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="19" width="657" height="243" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-4" value="appB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lucida Console;fontSize=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;align=center;" vertex="1" parent="1">
-          <mxGeometry x="630" y="120" width="80" height="80" as="geometry"/>
+        <mxCell id="5cnRcVTEnLRAY2OvrMMb-4" value="appB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lucida Console;fontSize=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;align=center;" parent="1" vertex="1">
+          <mxGeometry x="630" y="98" width="110" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" edge="1" parent="1" source="5cnRcVTEnLRAY2OvrMMb-8" target="5cnRcVTEnLRAY2OvrMMb-8">
+        <mxCell id="5cnRcVTEnLRAY2OvrMMb-8" value="NotifyAgent" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="91" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="5cnRcVTEnLRAY2OvrMMb-11" value="顺序执行：同一地址同一时间只允许一个通知在发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="235" y="280" width="430" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-21" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="101" width="380" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-23" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135.5" width="370" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-36" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="108" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-85" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="175.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-37" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="106" width="140" height="33.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nmCCc8QghZ6yz7m9xCiO-39" target="nmCCc8QghZ6yz7m9xCiO-46">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-39" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="109" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nmCCc8QghZ6yz7m9xCiO-46" target="nmCCc8QghZ6yz7m9xCiO-58">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-46" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="315" y="109" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-58" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="109" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-68" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="176" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-70" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="172" width="370" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-71" value="" style="line;strokeWidth=2;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="201.5" width="390" height="8.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nmCCc8QghZ6yz7m9xCiO-80" target="nmCCc8QghZ6yz7m9xCiO-81">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-80" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="178" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nmCCc8QghZ6yz7m9xCiO-81" target="nmCCc8QghZ6yz7m9xCiO-83">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="200" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="220" y="230"/>
-              <mxPoint x="140" y="230"/>
-              <mxPoint x="140" y="160"/>
+              <mxPoint x="345" y="193"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-67" value="循环检查哪些&lt;br style=&quot;font-size: 14px;&quot;&gt;通知可以发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" connectable="0" parent="5cnRcVTEnLRAY2OvrMMb-25">
-          <mxGeometry x="0.1415" y="-6" relative="1" as="geometry">
-            <mxPoint x="4" y="6" as="offset"/>
-          </mxGeometry>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-81" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="315" y="177" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=center;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="5cnRcVTEnLRAY2OvrMMb-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="160" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="260" y="110"/>
-              <mxPoint x="630" y="110"/>
-            </Array>
-          </mxGeometry>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-83" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="178" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-68" value="发送通知给Ｂ（第一次）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" connectable="0" parent="5cnRcVTEnLRAY2OvrMMb-40">
-          <mxGeometry x="-0.2824" y="1" relative="1" as="geometry">
-            <mxPoint x="52" as="offset"/>
-          </mxGeometry>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-92" value="等待区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="139.5" width="60" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-8" value="NotifyAgent" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
-          <mxGeometry x="180" y="121" width="80" height="80" as="geometry"/>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-93" value="等待区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="60" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-11" value="通知的调度和发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="320" y="290" width="160" height="30" as="geometry"/>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-95" value="To:appB/addressX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="145.5" width="130" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="170" as="sourcePoint"/>
-            <mxPoint x="630" y="170" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="260" y="210"/>
-              <mxPoint x="630" y="210"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-70" value="等待一段时间后，重新发送通知给Ｂ（第n次）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" connectable="0" parent="5cnRcVTEnLRAY2OvrMMb-41">
-          <mxGeometry x="-0.5467" y="9" relative="1" as="geometry">
-            <mxPoint x="118" y="2" as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-43" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=1;dashPattern=1 3;strokeColor=#4284F3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;align=center;" edge="1" parent="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="630" y="159.5" as="sourcePoint"/>
-            <mxPoint x="260" y="159.5" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="450" y="160"/>
-              <mxPoint x="450" y="160"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-69" value="没有得到预期的应答" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" connectable="0" parent="5cnRcVTEnLRAY2OvrMMb-43">
-          <mxGeometry x="0.4054" y="-4" relative="1" as="geometry">
-            <mxPoint x="57" y="2.5" as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.088;exitY=0.763;exitDx=0;exitDy=0;exitPerimeter=0;align=center;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="5cnRcVTEnLRAY2OvrMMb-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="190" as="sourcePoint"/>
-            <mxPoint x="260" y="180" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="637" y="240"/>
-              <mxPoint x="260" y="240"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cnRcVTEnLRAY2OvrMMb-71" value="得到正确的应答，标识通知发送结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" connectable="0" parent="5cnRcVTEnLRAY2OvrMMb-63">
-          <mxGeometry x="0.2944" y="-4" relative="1" as="geometry">
-            <mxPoint x="65" as="offset"/>
-          </mxGeometry>
+        <mxCell id="nmCCc8QghZ6yz7m9xCiO-96" value="To:appB/addressY" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="130" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
