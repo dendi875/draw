@@ -1,1 +1,92 @@
-<mxfile host="www.draw.io" modified="2020-01-06T11:16:46.187Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="12.4.8" etag="F-LZwKdEOWmSqJZaNHBa" type="github"><diagram id="DZqUi_0mF_FN82hKnBuZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-06T11:18:22.679Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="qlejxDilKXaIemYzBAfo" version="12.4.8" type="github">
+  <diagram id="DZqUi_0mF_FN82hKnBuZ" name="Page-1">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-1" value="&lt;div style=&quot;text-align: right&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="657" height="243" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-2" value="appB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lucida Console;fontSize=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="119" width="110" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-3" value="NotifyAgent" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="112" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-4" value="并发执行：同一地址同一时间允许多个通知一起发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="175" y="301" width="430" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-5" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="122" width="380" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-6" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="156.5" width="370" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-7" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="129" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-8" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="196.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-9" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="127" width="140" height="33.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-60GVlUHPtgrYHmGdDW0-11" target="-60GVlUHPtgrYHmGdDW0-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-11" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-60GVlUHPtgrYHmGdDW0-13" target="-60GVlUHPtgrYHmGdDW0-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-13" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="255" y="130" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-14" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-15" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="197" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-16" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="193" width="370" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-17" value="" style="line;strokeWidth=2;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="222.5" width="390" height="8.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-60GVlUHPtgrYHmGdDW0-19" target="-60GVlUHPtgrYHmGdDW0-21">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-19" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="199" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-60GVlUHPtgrYHmGdDW0-21" target="-60GVlUHPtgrYHmGdDW0-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="214"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-21" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="255" y="198" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-22" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/social/messaging.svg;" vertex="1" parent="1">
+          <mxGeometry x="310" y="199" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-23" value="等待区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160.5" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-24" value="等待区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="231" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-25" value="To:appB/addressX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="166.5" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="-60GVlUHPtgrYHmGdDW0-26" value="To:appB/addressX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="231" width="130" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
