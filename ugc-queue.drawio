@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T13:28:10.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" version="14.2.7" etag="GgkcmhzuDov5qoDGExv-" type="github"><diagram id="kGfZLU4s-NXNLW3dPl7-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T14:42:22.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="xZbCo6_LeZs4b24Ce-6N" version="14.2.7" type="github">
+  <diagram id="kGfZLU4s-NXNLW3dPl7-" name="Page-1">
+    <mxGraphModel dx="1666" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="720" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="720" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-3" value="" style="endArrow=none;html=1;exitX=0.513;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.51;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DldoQsXtl6lnJ0hswHK6-2" target="DldoQsXtl6lnJ0hswHK6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-4" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DldoQsXtl6lnJ0hswHK6-2" target="DldoQsXtl6lnJ0hswHK6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ConsumerWorker（消费者进程）*&amp;nbsp; N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="520" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MonitorWorker（监控进程）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-12" value="Master进程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-14" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.425;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DldoQsXtl6lnJ0hswHK6-12" target="DldoQsXtl6lnJ0hswHK6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="550" as="sourcePoint" />
+            <mxPoint x="550" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="279" />
+              <mxPoint x="410" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;fork()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DldoQsXtl6lnJ0hswHK6-14">
+          <mxGeometry x="-0.2633" relative="1" as="geometry">
+            <mxPoint x="4" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-16" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.663;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DldoQsXtl6lnJ0hswHK6-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="530" y="548" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="453" y="280" />
+              <mxPoint x="465" y="280" />
+              <mxPoint x="465" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;fork()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="399.9999666666897" as="geometry">
+            <mxPoint x="25" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-20" value="1.&amp;nbsp;注册信号处理器&lt;br&gt;2. 迁移过期的 job&lt;br&gt;3.&amp;nbsp;通过定时器向管道中发送通知，&lt;br&gt;尝试调整消费者进程数" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="517.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-21" value="1.注册信号处理器&lt;br&gt;2. 处理任务" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="532.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DldoQsXtl6lnJ0hswHK6-22" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 创建子进程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 回收子进程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 注册信号处理器，向子进程发送停止、重启信号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. 读取管道中的通知，&lt;/span&gt;&lt;span&gt;通过读取等待队&lt;/span&gt;&lt;span&gt;列中的数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;来调整消费者进程数&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="280" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
