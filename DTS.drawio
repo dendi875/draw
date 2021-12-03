@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T07:59:21.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="DNWoWTdqwyj4BzxBccTW" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-03T08:02:51.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="3imvhK3IZTGIIbSNyq8S" version="14.9.9" type="github" pages="2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="2388" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -614,10 +614,16 @@
           <mxGeometry x="1150" y="883.75" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-20" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="991.25" width="450" height="63.75" as="geometry" />
+          <mxGeometry x="1110" y="1066.25" width="450" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-21" value="&lt;div&gt;&lt;div&gt;回滚时：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅老的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="995" width="390" height="50" as="geometry" />
+          <mxGeometry x="1150" y="1070" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-22" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="984.75" width="450" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-23" value="&lt;div&gt;&lt;div&gt;稳定时：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅新的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="988.5" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
