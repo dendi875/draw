@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T07:56:11.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="-J7x07-KML0cEQPzdfNG" version="14.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-03T07:57:30.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="rpfC7mGOgOibPCPRxWDv" version="14.9.9" type="github" pages="2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="2388" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -598,13 +598,13 @@
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-6" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1110" y="686.25" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-8" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;原始状态：&lt;/span&gt;&lt;/div&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅老的 DTS 服务产生的消息，落 fg_message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-8" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;原始状态：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅老的 DTS 服务产生的消息，落 fg_message&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1150" y="690" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-13" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1110" y="780" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-14" value="&lt;div style=&quot;text-align: center&quot;&gt;验证时：&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-14" value="&lt;div&gt;验证时：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; 订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1150" y="783.75" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
