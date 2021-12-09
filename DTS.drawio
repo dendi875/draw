@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T01:43:26.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="hS3vQ-NI7dkEqkeu76u2" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-09T01:50:19.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="diSC5MinxDktxZUjgDRn" version="15.8.9" type="github" pages="2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="2516" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -557,25 +557,25 @@
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-6" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1070" y="805" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-8" value="&lt;div&gt;&lt;span&gt;原始状态：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅老的 DTS 服务产生的消息，落 fg_message&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-8" value="&lt;div&gt;&lt;span&gt;原始状态：1、2、5、6&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅老的 DTS 服务产生的消息，落 fg_message&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1110" y="808.75" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-13" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1070" y="898.75" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-14" value="&lt;div&gt;验证状态：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-14" value="&lt;div&gt;验证状态：1、2、7、8&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅老的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1110" y="902.5" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-17" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1070" y="998.75" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-18" value="&lt;div&gt;&lt;div&gt;切换状态：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅新的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅老的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-18" value="&lt;div&gt;&lt;div&gt;切换状态：3、4、5、6&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅新的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅老的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1002.5" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bMjPMDOT4QEHUHXhMEeZ-22" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1070" y="1103.5" width="450" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-23" value="&lt;div&gt;&lt;div&gt;稳定状态：&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅新的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="bMjPMDOT4QEHUHXhMEeZ-23" value="&lt;div&gt;&lt;div&gt;稳定状态：3、4、7、8&lt;/div&gt;&lt;div&gt;ugcaudit-async-svc&amp;nbsp; 订阅新的 DTS 服务产生的消息，落 ugc_message&lt;/div&gt;&lt;div&gt;ugcaudit-nswoole&amp;nbsp; &amp;nbsp; &amp;nbsp;订阅新的 DTS 服务产生的消息，落 fg_message&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1118" y="1107.25" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YG8s-JpupvvZgUF11DrM-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.137;entryY=0.879;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#97D077;" edge="1" parent="1" target="Ohz8SHrbHRsh5rSiHTiS-50">
